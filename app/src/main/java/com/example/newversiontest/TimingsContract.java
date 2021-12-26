@@ -7,9 +7,6 @@ import static com.example.newversiontest.AppProvider.CONTENT_AUTHORITY;
 import static com.example.newversiontest.AppProvider.CONTENT_AUTHORITY_URI;
 
 
-/**
- * Created by timbuchalka on 18/10/16.
- */
 
 public class TimingsContract {
 

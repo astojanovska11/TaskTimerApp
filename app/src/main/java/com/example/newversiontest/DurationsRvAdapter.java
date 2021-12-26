@@ -16,7 +16,7 @@ import java.util.Locale;
 
     private Cursor mCursor;
 
-    private final java.text.DateFormat mDateFormat; // module level so we don't keep instantiating in bindView.
+    private final java.text.DateFormat mDateFormat; // module level to skip instantiating in bindView.
 
     public DurationsRVAdapter(Context context, Cursor cursor) {
         this.mCursor = cursor;

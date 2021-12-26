@@ -55,7 +55,7 @@ public class AppDialog extends AppCompatDialogFragment {
         Log.d(TAG, "onDetach: Entering...");
         super.onDetach();
 
-        // Reset the active callbacks interface, because we don't have an activity any longer.
+        // Reset the active callbacks interface, no activity any longer.
         mDialogEvents = null;
     }
 

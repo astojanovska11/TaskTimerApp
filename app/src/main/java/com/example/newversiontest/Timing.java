@@ -9,9 +9,6 @@ import java.util.Date;
  * Simple timing object.
  * Sets its start time when created, and calculates how long since creation,
  * when setDuration is called.
- *
- * Created by timbuchalka for Android Oreo with Java course
- * from www.learnprogramming.academy
  */
 
 class Timing implements Serializable {

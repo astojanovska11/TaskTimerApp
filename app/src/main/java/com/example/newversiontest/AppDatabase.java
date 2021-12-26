@@ -4,13 +4,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * Created by timbuchalka on 19/10/16.
- *
- * Basic database class for the application.
- *
- * The only class that should use this is {@link AppProvider}.
- */
+
 
 class AppDatabase extends SQLiteOpenHelper {
     private static final String TAG = "AppDatabase";
@@ -26,13 +20,7 @@ class AppDatabase extends SQLiteOpenHelper {
         Log.d(TAG, "AppDatabase: constructor");
     }
 
-    /**
-     *
-     * Get an instance of the app's singleton database helper object
-     *
-     * @param context the content providers context.
-     * @return a SQLite database helper object
-     */
+
     static AppDatabase getInstance(Context context) {
         if(instance == null) {
             Log.d(TAG, "getInstance: creating new instance");

@@ -3,7 +3,7 @@ package com.example.newversiontest;
 import java.io.Serializable;
 
 class Task implements Serializable {
-    public static final long serialVersionUID = 20161120L;
+    public static final long serialVersionUID = 20201120L;
 
     private long m_Id;
     private final String mName;
