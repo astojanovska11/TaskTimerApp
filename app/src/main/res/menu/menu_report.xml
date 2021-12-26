@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/rm_title_filter_week" app:showAsAction="ifRoom" android:icon="@drawable/ic_baseline_filter_7_24" android:id="@+id/rm_filter_period"/>
+
+    <item android:title="@string/rm_title_filter_date" app:showAsAction="ifRoom" android:icon="@drawable/ic_baseline_date_range_24" android:id="@+id/rm_filter_date"/>
+
+    <item android:title="@string/rm_title_delete" app:showAsAction="collapseActionView" android:icon="@drawable/ic_baseline_delete_24" android:id="@+id/rm_delete"/>
+</menu>

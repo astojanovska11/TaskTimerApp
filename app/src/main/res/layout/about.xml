@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:paddingStart="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingEnd="?attr/dialogPreferredPadding" android:paddingBottom="?attr/dialogPreferredPadding" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:text="1.0.0" android:textStyle="bold" android:textColor="?android:attr/textColorPrimary" android:layout_gravity="right|end" android:id="@+id/about_version"/>
+
+    <TextView android:layout_height="1dp" android:layout_width="match_parent" android:textColor="?android:attr/textColorSecondary" android:id="@+id/line" android:background="?android:attr/listDivider" android:layout_marginTop="8dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/about_copyright" android:textColor="?android:attr/textColorSecondary" android:id="@+id/about_copyright" android:layout_marginTop="8dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/about_weblink" android:textColor="?android:attr/textColorSecondary" android:id="@+id/about_weblink" android:layout_marginTop="8dp" android:autoLink="web"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/about_email" android:textColor="?android:attr/textColorSecondary" android:id="@+id/about_email" android:layout_marginTop="8dp" android:autoLink="email"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/about_credits" android:textColor="?android:attr/textColorSecondary" android:id="@+id/about_credits" android:layout_marginTop="8dp"/>
+
+</LinearLayout>
